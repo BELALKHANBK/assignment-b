@@ -13,6 +13,8 @@ body {
 
 header {
     background-color: #F7F7F7;
+    max-width: 1040px;
+    margin: 0 auto;
 }
 
 main {
@@ -574,7 +576,7 @@ h2 {
     }
 }
 
-@media (max-width:500px) {
+@media (max-width:480px) {
     .a5 {
         display: flex;
         border: 1px solid red;
@@ -593,7 +595,8 @@ h2 {
         display: none;
     }
     .imglogo {
-        margin-right: 9em;
+        position: relative;
+        left: 2em;
     }
     .footer {
         height: 100%;
@@ -603,13 +606,15 @@ h2 {
     }
     .banner {
         flex-direction: column-reverse;
+        position: relative;
+        left: 1.7em;
     }
     .banner-img {
         position: relative;
-        right: 1.4em;
         margin-bottom: 50px;
-        width: 26em;
-        height: 80vh;
+        right: 1em;
+        width: 23em;
+        height: 60vh;
     }
     .banner-s {
         position: relative;
@@ -644,10 +649,18 @@ h2 {
     }
     .main {
         flex-direction: column;
-        margin-right: 9px;
+        position: relative;
+        left: 1.3em;
+    }
+    .Curriculum {
+        font-size: 2em;
     }
     .our1 {
         display: none;
+    }
+    .aa {
+        position: relative;
+        left: 1.5em;
     }
     .view {
         position: relative;
@@ -657,6 +670,7 @@ h2 {
         right: 12px;
     }
     .footer {
+        width: 114%;
         height: 130vh;
     }
     .education {
@@ -679,11 +693,12 @@ h2 {
     }
     .nn {
         position: relative;
+        left: 1em;
     }
     .fh1 {
         position: relative;
-        right: .5em;
         color: wheat;
+        left: 1em;
     }
     .fh12 {
         position: relative;
