@@ -13,8 +13,6 @@ body {
 
 header {
     background-color: #F7F7F7;
-    max-width: 1040px;
-    margin: 0 auto;
 }
 
 main {
@@ -123,12 +121,13 @@ a:hover {
 }
 
 .a {
-    font-size: 2em;
+    font-size: 3em;
     text-align: center;
 }
 
 .d {
     color: springgreen;
+    font-size: 2em;
 }
 
 div img {
